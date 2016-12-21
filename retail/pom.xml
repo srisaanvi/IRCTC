@@ -3,7 +3,7 @@
 
   <groupId>com.in.retail</groupId>
   <artifactId>retail</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>retail</name>
@@ -13,7 +13,7 @@
 		<connection>scm:git:git://github.com/srisaanvi/IRCTC.git</connection>
 		<developerConnection>scm:git:git@github.com:srisaanvi/IRCTC.git</developerConnection>
 		<url>https://github.com/srisaanvi/IRCTC</url>
-    <tag>retail-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
