@@ -9,6 +9,12 @@
 
   <name>retail</name>
   <url>http://maven.apache.org</url>
+  
+  <scm>
+		<connection>scm:git:git://github.com/srisaanvi/IRCTC.git</connection>
+		<developerConnection>scm:git:git@github.com:srisaanvi/IRCTC.git</developerConnection>
+		<url>https://github.com/srisaanvi/IRCTC</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,4 +28,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+   <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-74I6IP2-snapshots</name>
+        <url>http://localhost:7070/artifactory/ext-snapshot-local</url>
+    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-74I6IP2-releases</name>
+        <url>http://localhost:7070/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
